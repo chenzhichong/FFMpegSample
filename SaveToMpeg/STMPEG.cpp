@@ -1,4 +1,3 @@
-#include "StdAfx.h"
 #include "stmpeg.h"
 
 #define LineWidthBytes(biWidth, biBitCount) ((biWidth * biBitCount + 31) / 32 * 4)
@@ -12,7 +11,7 @@ CSTMPEG::CSTMPEG(): m_nOutBufSize(200000)
     m_fBitRate  = 800000;
     m_nFrame  = -1; 
 
-    m_pRGBFrame     = NULL; 
+    m_pRGBFrame     = NULL;
     m_pYUVFrame     = NULL;
 
     m_pFormatContext= NULL;

@@ -1,5 +1,5 @@
 #pragma once
-#include "include/avformat.h"
+#include "libavformat/avformat.h"
 
 
 class CSTMPEG

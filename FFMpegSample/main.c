@@ -20,7 +20,6 @@
 
 #pragma comment(lib, "avcodec.lib")
 #pragma comment(lib, "avformat.lib")
-#pragma comment(lib, "postproc.lib")
 #pragma comment(lib, "avutil.lib")
 
 #if _MSC_VER
